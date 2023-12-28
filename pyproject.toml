@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "scrap-1huis"
+version = "0.1.0"
+description = ""
+authors = ["Sheikh Haris Zahid <sheikh.haris.zahid@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "scrap_1huis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.16.0"
+pandas = "^2.1.4"
+beautifulsoup4 = "^4.12.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.19.0"
+black = "^23.12.1"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
